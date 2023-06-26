@@ -30,6 +30,7 @@ public class Task {
         return this.planMinuteTime;
     }
 
+    //prac27
     public static int getTotalActualTime(Task[] tasks) {
         return Arrays
                 .stream(tasks)
@@ -37,6 +38,7 @@ public class Task {
                 .sum();
     }
 
+    //prac27
     public static int getTotalPlanTime(Task[] tasks) {
         return Arrays.stream(tasks).mapToInt(Task::getPlanMinuteTime).sum();
     }

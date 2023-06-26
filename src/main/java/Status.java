@@ -1,3 +1,4 @@
+//prac28
 public enum Status {
     UNHANDLED("未対応"),
     PROCESSING("処理中"),

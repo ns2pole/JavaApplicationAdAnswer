@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DateUtilTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2023-06-26T14:14:49" hostname="nakamura.local" time="6.53">
+  <properties/>
+  <testcase name="getLastMonthDates()" classname="DateUtilTest" time="0.033"/>
+  <testcase name="getDaysBetweenDates()" classname="DateUtilTest" time="0.001"/>
+  <testcase name="validateAndParseDate()" classname="DateUtilTest" time="0.004"/>
+  <testcase name="isNationalHoliday()" classname="DateUtilTest" time="0.856"/>
+  <testcase name="countWorkingDays()" classname="DateUtilTest" time="4.318"/>
+  <testcase name="isSaturdayOrSunday()" classname="DateUtilTest" time="0.001"/>
+  <testcase name="getNextWorkingDayOf()" classname="DateUtilTest" time="0.566"/>
+  <testcase name="getDaysStrBetween()" classname="DateUtilTest" time="0.004"/>
+  <testcase name="isHoliday()" classname="DateUtilTest" time="0.687"/>
+  <testcase name="isWeekDay()" classname="DateUtilTest" time="0.003"/>
+  <testcase name="getNationalHoliday()" classname="DateUtilTest" time="0.052"/>
+  <system-out><![CDATA[actual
+[Ljava.lang.String;@5d2a4eed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
